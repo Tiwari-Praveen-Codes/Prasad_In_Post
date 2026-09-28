@@ -42,7 +42,7 @@ export default function Header() {
             />
           </div>
           <div className="flex flex-col">
-            <span className="font-display font-bold text-xs sm:text-sm tracking-[0.18em] uppercase">
+            <span className="font-editorial font-bold text-xs sm:text-sm tracking-[0.18em] uppercase">
               {PORTFOLIO_INFO.name}
             </span>
             <span className="font-mono text-[9px] uppercase tracking-widest text-terracotta-deep font-semibold">

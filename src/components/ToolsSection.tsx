@@ -55,7 +55,7 @@ export default function ToolsSection() {
                 {getToolIcon(tool.iconType)}
               </div>
               <div className="space-y-1 min-w-0">
-                <h3 className="font-display font-bold text-sm text-on-surface truncate">
+                <h3 className="font-editorial font-bold text-base text-on-surface truncate">
                   {tool.name}
                 </h3>
                 <p className="font-sans text-xs text-secondary font-light leading-snug">

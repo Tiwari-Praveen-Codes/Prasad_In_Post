@@ -73,7 +73,7 @@ export default function VideoPlayerModal({
           <div className="flex items-center gap-3 min-w-0">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
             <div className="flex flex-col min-w-0">
-              <span className="font-display text-xs sm:text-sm font-bold text-white uppercase tracking-wider truncate">
+              <span className="font-editorial text-sm sm:text-base font-bold text-white tracking-normal truncate">
                 {showcase.title}
               </span>
               <span className="font-mono text-[9px] sm:text-[10px] text-cinema-muted uppercase tracking-widest truncate">

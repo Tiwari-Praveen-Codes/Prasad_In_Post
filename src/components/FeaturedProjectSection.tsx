@@ -116,7 +116,7 @@ export default function FeaturedProjectSection({
                 </span>
               </div>
 
-              <h3 className="font-display font-black text-2xl sm:text-3xl text-on-surface uppercase tracking-tight">
+              <h3 className="font-editorial text-2xl sm:text-3xl lg:text-4xl text-on-surface tracking-tight">
                 Croma — Commercial Advertisement
               </h3>
 

@@ -52,7 +52,7 @@ export default function ServicesOverview({ onSelectCategory }: ServicesOverviewP
                   <span className="font-mono text-xs text-secondary/50 font-medium">
                     {item.number}
                   </span>
-                  <h3 className="font-display text-base sm:text-lg font-bold tracking-wider text-on-surface uppercase group-hover:text-terracotta-deep transition-colors">
+                  <h3 className="font-editorial text-lg sm:text-xl font-bold tracking-normal text-on-surface group-hover:text-terracotta-deep transition-colors">
                     {item.title}
                   </h3>
                 </div>
@@ -81,7 +81,7 @@ export default function ServicesOverview({ onSelectCategory }: ServicesOverviewP
               <Sparkles className="w-6 h-6 text-terracotta-vibrant" />
             </div>
             <div>
-              <h3 className="font-display text-base sm:text-lg font-bold text-on-surface">
+              <h3 className="font-editorial text-xl sm:text-2xl font-bold text-on-surface">
                 Have a project or campaign in mind?
               </h3>
               <p className="font-sans text-xs sm:text-sm text-secondary font-light">

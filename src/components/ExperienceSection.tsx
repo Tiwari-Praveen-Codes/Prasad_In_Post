@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Briefcase, Building2, CheckCircle2 } from "lucide-react";
+import { Briefcase, Building2 } from "lucide-react";
 import { EXPERIENCES } from "@/data/portfolioData";
 
 export default function ExperienceSection() {
@@ -59,11 +59,6 @@ export default function ExperienceSection() {
                 <p className="font-sans text-xs sm:text-sm text-secondary leading-relaxed font-light pt-1">
                   {exp.description}
                 </p>
-              </div>
-
-              <div className="pt-4 border-t border-surface-container-high/70 flex items-center gap-2 text-xs font-mono text-secondary">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                <span>Verified Commercial Responsibilities</span>
               </div>
             </div>
           ))}

@@ -1,5 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700;900&display=swap');
 
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-Ultralight-BF644b21500d0c0.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-UltralightItalic-BF644b214ff1e9b.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-Regular-BF644b214ff145f.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-Italic-BF644b214fb0c0a.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-Ultrabold-BF644b21500840c.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-UltraboldItalic-BF644b214faef01.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +57,8 @@
     --bg-surface: #fcf9f3;
     --text-primary: #1c1c18;
     --accent-terracotta: #bd814f;
-    --font-bodoni: 'Bodoni Moda', Georgia, serif;
+    --font-editorial: 'PP Editorial New', Georgia, serif;
+    --font-bodoni: 'PP Editorial New', 'Bodoni Moda', Georgia, serif;
     --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --font-space-grotesk: 'Space Grotesk', -apple-system, sans-serif;
     --font-mono: 'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace;
@@ -26,6 +75,11 @@
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Headings use the PP Editorial New font throughout the whole project */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-editorial), 'PP Editorial New', Georgia, serif;
   }
 
   /* Custom subtle scrollbar */

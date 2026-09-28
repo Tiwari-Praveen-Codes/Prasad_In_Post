@@ -1,5 +1,43 @@
 import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const ppEditorialNew = localFont({
+  src: [
+    {
+      path: "./fonts/PPEditorialNew-Ultralight-BF644b21500d0c0.otf",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "./fonts/PPEditorialNew-UltralightItalic-BF644b214ff1e9b.otf",
+      weight: "200",
+      style: "italic",
+    },
+    {
+      path: "./fonts/PPEditorialNew-Regular-BF644b214ff145f.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/PPEditorialNew-Italic-BF644b214fb0c0a.otf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "./fonts/PPEditorialNew-Ultrabold-BF644b21500840c.otf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "./fonts/PPEditorialNew-UltraboldItalic-BF644b214faef01.otf",
+      weight: "800",
+      style: "italic",
+    },
+  ],
+  variable: "--font-editorial",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Prasad Bhangane — Video Editor & Motion Designer",
@@ -51,7 +89,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       </head>
-      <body className="font-sans bg-surface text-on-surface min-h-screen antialiased selection:bg-black selection:text-white">
+      <body className={`${ppEditorialNew.variable} font-sans bg-surface text-on-surface min-h-screen antialiased selection:bg-black selection:text-white`}>
         {children}
       </body>
     </html>

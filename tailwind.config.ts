@@ -55,8 +55,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        editorial: ["var(--font-bodoni)", "Bodoni Moda", "Playfair Display", "serif"],
-        display: ["var(--font-space-grotesk)", "Space Grotesk", "sans-serif"],
+        editorial: ["var(--font-editorial)", "'PP Editorial New'", "var(--font-bodoni)", "Bodoni Moda", "Playfair Display", "serif"],
+        display: ["var(--font-editorial)", "'PP Editorial New'", "var(--font-space-grotesk)", "Space Grotesk", "sans-serif"],
         sans: ["var(--font-inter)", "Inter", "-apple-system", "sans-serif"],
         mono: ["var(--font-mono)", "JetBrains Mono", "SF Mono", "monospace"],
       },

@@ -244,7 +244,7 @@ export default function ContactSection({ initialCategory }: ContactSectionProps)
             <div className="p-6 rounded-2xl bg-secondary-container/80 border border-secondary-container text-on-secondary-container space-y-3 animate-in fade-in duration-300">
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-6 h-6 text-terracotta-deep" />
-                <h4 className="font-display font-bold text-base text-on-surface">
+                <h4 className="font-editorial text-lg text-on-surface font-semibold">
                   Message Sent Successfully
                 </h4>
               </div>
